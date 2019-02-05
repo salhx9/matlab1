@@ -1,0 +1,1 @@
+% single cick to select point and double click to terminatefunction [x,y,z]=drawPolygon();%drawBase[x y]= getline();x=[x;x(1)];y=[y;y(1)];plot(x,y);z=0*x;for k=1:length(x)-1   str=sprintf('  A%d',k);   text(x(k),y(k),str,'fontsize',14,'color','r');end%hold off

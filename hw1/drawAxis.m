@@ -1,0 +1,1 @@
+% click to select, double click to terminatefunction [a1,a2,b1,b2]=drawAxis();%drawAxis% select points by rubberbanding[x y]=getline();%%% %  PREFORMATTED%  TEXT% a1=x(1); a2=x(2);b1=y(1); b2=y(2);plot(x(1:2),y(1:2));text(x(1),y(1),' P1', 'fontsize',14,'color','b');text(x(2),y(2),' P2','fontsize',14,'color','b');
